@@ -28,7 +28,20 @@ I expect a large relationship with artists in general for each song, where popul
 
 #### Preparation
 
-First a basic eda was performed on the dataset. The head of the dataset was displayed and the dtypes per column were checked before checking on null values which were not found in either the target column ("popularity") nor the features of major interest (energy, key, valence, etc.)
+First a basic eda was performed on the dataset. The head of the dataset was displayed and the dtypes per column were checked before checking on null values which were not found in either the target column ("popularity") nor the features of major interest (energy, key, valence, etc.). Visualizations of chosen feature variables of interest were then created to examine distribution of variables, correlation to each other, and correlation to the popularity column. These chosen features were:
+
+- danceability
+- energy
+- valence
+- tempo
+- loudness
+- accousticness
+
+These features were chosen simply because they stood out to me in relation to popularity while also being specific attributes of a song. 
+
+First histograms were ran on each feature to determine their spread and aggregations. Tempo was the most normal distribution bell curve between 0 - 250, followed by valence ranging between 0 - 1.0 (though it had a higher ceiling where most of its bars were large in count). Danceabiltiy was normal but slightly left skewed between 0 - 1.0, and loudness was skewed left between -50 to 0. The most extreme distribution were energy and acousticness, where accoustiness was extremely skewed right and energy was left skewed but bars would constantly increase from 0 to 1.0.
+
+Next
 
 #### Results
 (move EDA section to "preparation" above as didn't feel it was fitting with the section)
