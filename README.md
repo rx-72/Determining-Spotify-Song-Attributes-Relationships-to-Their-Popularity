@@ -14,7 +14,7 @@ The mmain key point we attempt to answer is if we can cluster and organize songs
 
 The following will be my main source of data:
 
-https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset Links to an external site.
+https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset
 
 It contains a list 114,000 rows of different songs and their popularity from Spotify. Including popularity ranking, each song has 20 columns of features such as artists, album name, energy, key, etc. 
 
@@ -26,8 +26,12 @@ The main techniques expected to be utilized for this project include data cleani
 
 I expect a large relationship with artists in general for each song, where popularity would be matched with certain artists as well. I also similarly expect certain genres or musical styles to be more popular than others. Aside from this however, I'm not as certain with expected results, as the clustering may come up with some unexpected groupings.
 
+#### Preparation
+
+First a basic eda was performed on the dataset. The head of the dataset was displayed and the dtypes per column were checked before checking on null values which were not found in either the target column ("popularity") nor the features of major interest (energy, key, valence, etc.)
+
 #### Results
-What did your research find?
+(move EDA section to "preparation" above as didn't feel it was fitting with the section)
 
 #### Next steps
 What suggestions do you have for next steps?
