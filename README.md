@@ -43,7 +43,15 @@ First histograms were ran on each feature to determine their spread and aggregat
 
 Next we made a heatmap of these features that focused on their correlation with each other. This was to see if certain features may get compounded together if one of them is influential on popularity. Aside from a select few combinations, most correlation tended to be on the lower side and not passing the absolute 0.5 threshold. The main exceptions were energy and loudness at 0.76, energy and acoustiness at -0.73, and loudness and accoustiness at -0.59. These relationships make sense, since high energy resonates with louder music, and high energy and loud music often involves metal or electric music which cuts the naturalness of music accoustiness.
 
-Finally, we made a multi scatterplot where we compared each feature against popularity to determine if there's a trend.
+Finally, we made a multi scatterplot where we compared each feature against popularity to determine if there's a trend. No major trend was identifiable with danceability, energy, valence, or tempo. There was a slight trend where larger loudness lead to better popularity and higher accoustiness lead to lower popularity but the values were to spread out to truly make note of this. 
+
+Finally, a basic linear regression model was made to predict popularity using the rest of the dataset features. Each feature was pass through a transformer which, transformed boolean to numerical values, ran a standard scaler on numerical values and a one hot encoder on the categorical values. From there, the train dataset was tranformed and fitted upon before predicting the test dataset. From there, we took the coefficients of the model and see which features were most useful for compatability with popularity. Features with the largest coeffiecent values included:
+
+- time signature
+- key
+- duration_min
+
+the rest of the features had much lower coefficients utilized on the model. Of course this is a very barebones basic model but we'll keep an eye out for these features during the clustering.
 
 #### Results
 (move EDA section to "preparation" above as didn't feel it was fitting with the section)
