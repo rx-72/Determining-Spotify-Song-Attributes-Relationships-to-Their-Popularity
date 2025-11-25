@@ -41,7 +41,9 @@ These features were chosen simply because they stood out to me in relation to po
 
 First histograms were ran on each feature to determine their spread and aggregations. Tempo was the most normal distribution bell curve between 0 - 250, followed by valence ranging between 0 - 1.0 (though it had a higher ceiling where most of its bars were large in count). Danceabiltiy was normal but slightly left skewed between 0 - 1.0, and loudness was skewed left between -50 to 0. The most extreme distribution were energy and acousticness, where accoustiness was extremely skewed right and energy was left skewed but bars would constantly increase from 0 to 1.0.
 
-Next
+Next we made a heatmap of these features that focused on their correlation with each other. This was to see if certain features may get compounded together if one of them is influential on popularity. Aside from a select few combinations, most correlation tended to be on the lower side and not passing the absolute 0.5 threshold. The main exceptions were energy and loudness at 0.76, energy and acoustiness at -0.73, and loudness and accoustiness at -0.59. These relationships make sense, since high energy resonates with louder music, and high energy and loud music often involves metal or electric music which cuts the naturalness of music accoustiness.
+
+Finally, we made a multi scatterplot where we compared each feature against popularity to determine if there's a trend.
 
 #### Results
 (move EDA section to "preparation" above as didn't feel it was fitting with the section)
