@@ -53,6 +53,8 @@ Finally, a basic linear regression model was made to predict popularity using th
 
 the rest of the features had much lower coefficients utilized on the model. Of course this is a very barebones basic model but we'll keep an eye out for these features during the clustering.
 
+In preparation of the clustering, we run the full dataset under a similar transformation manner as we did with the basic linear regression model, where numerical features were ran under a standard scaler and categorical features were ran under a one hot encoder. The main difference is of course this time the "popularity" column is similar transformed in preparation of clustering. Our final transformed result gives us a dataframe with 114000 rows and 30 columns. Just to recheck, we also have 0 nan values in this frame.
+
 #### Results
 (move EDA section to "preparation" above as didn't feel it was fitting with the section)
 
