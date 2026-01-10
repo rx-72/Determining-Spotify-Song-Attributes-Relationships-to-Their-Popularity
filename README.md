@@ -57,9 +57,21 @@ In preparation of the clustering, we run the full dataset under a similar transf
 
 ### Dimensional Reductions, Final Steps, and Clustering
 
-Before any next steps, a PCA is ran on the transformed dataset to determine a good sense of how much of the variance is explained by the number of components utilized on the projection of the PCA. In this case, utilizing 2 components explains 33.47% of the projection, a good sign that clustering will work upon here. We also plot the projection no major early groupings and the outliers that exist:
+Before any next steps, a PCA is ran on the transformed dataset to determine a good sense of how much of the variance is explained by the number of components utilized on the projection of the PCA. In this case, utilizing 2 components explains 33.47% of the projection, a good sign that clustering will work upon here. We also plot the projection to confirm no major early groupings and the existing outliers that occur:
 
 <img src="images/PCA.png" width="800" height="800">
+
+(we do also plot a variance curve for further interest in the final report but we don't further explore here)
+
+Following the PCA, we decide to check the best k for the clustering method of "K means" against inertia based around the point of elbow or most sudden change:
+
+<img src="images/K_plot.png" width="800" height="800">
+
+The k that falls under this definition is around "6" which we utilize for our k variable in our clusters:
+
+Additional, we predict the clusters for each song previously listed and get statistics about their numerical features along with ranking popularity of the clusters:
+
+<img src="images/Cluster_Results.png" width="800" height="800">
 
 #### Results
 (move EDA section to "preparation" above as didn't feel it was fitting with the section)
