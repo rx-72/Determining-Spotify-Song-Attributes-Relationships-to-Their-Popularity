@@ -69,6 +69,8 @@ Following the PCA, we decide to check the best k for the clustering method of "K
 
 The k that falls under this definition is around "6" which we utilize for our k variable in our clusters:
 
+<img src="images/Cluster_plot.png" width="800" height="800">
+
 Additional, we predict the clusters for each song previously listed and get statistics about their numerical features along with ranking popularity of the clusters:
 
 <img src="images/Cluster_Results.png" width="800" height="800">
