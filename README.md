@@ -5,10 +5,10 @@
 #### Executive summary
 
 #### Rationale
-From a business standpoint, being able to determine specific groupings that correlate to popularity allows Spotify to give better recommendations for users based on said groupings, which would similarly make it more reliable as a music interface and in term more attractive for paying customers. More importantly however, determine the patterns and preferences of users would give people insight on what counts as attractive as music or songs. This would term give greater inspiration to others to explore these fields or perhaps explore less popular fields to showcase how great they can be as songs/music as well.
+From a business standpoint, being able to determine specific groupings that correlate to popularity allows Spotify to give better recommendations for users based on said groupings, which would similarly make it more reliable as a music interface and in turn more attractive for paying customers. More importantly however, determining the patterns and preferences of users would give people insight on what counts as attractive as music or songs. This would consequently give greater inspiration to others to explore these fields or perhaps explore less popular fields to showcase how great they can be as songs/music as well.
 
 #### Research Question
-The mmain key point we attempt to answer is if we can cluster and organize songs' audio features together in a graphical manner such that we can identify specific hidden groupings and patterns such as song style or genre preferences across the popularity of multiple Spotify songs.
+The main key point we attempt to answer is if we can cluster and organize songs' audio features together in a graphical manner such that we can identify specific hidden groupings and patterns such as song style or genre preferences across the popularity of multiple Spotify songs.
 
 #### Data Sources
 
@@ -54,6 +54,12 @@ Finally, a basic linear regression model was made to predict popularity using th
 the rest of the features had much lower coefficients utilized on the model. Of course this is a very barebones basic model but we'll keep an eye out for these features during the clustering.
 
 In preparation of the clustering, we run the full dataset under a similar transformation manner as we did with the basic linear regression model, where numerical features were ran under a standard scaler and categorical features were ran under a one hot encoder. The main difference is of course this time the "popularity" column is similar transformed in preparation of clustering. Our final transformed result gives us a dataframe with 114000 rows and 30 columns. Just to recheck, we also have 0 nan values in this frame.
+
+### Dimensional Reductions, Final Steps, and Clustering
+
+Before any next steps, a PCA is ran on the transformed dataset to determine a good sense of how much of the variance is explained by the number of components utilized on the projection of the PCA. In this case, utilizing 2 components explains 33.47% of the projection, a good sign that clustering will work upon here. We also plot the projection no major early groupings and the outliers that exist:
+
+<img src="images/screenshot.png" width="500" height="300">
 
 #### Results
 (move EDA section to "preparation" above as didn't feel it was fitting with the section)
