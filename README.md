@@ -59,7 +59,7 @@ In preparation of the clustering, we run the full dataset under a similar transf
 
 Before any next steps, a PCA is ran on the transformed dataset to determine a good sense of how much of the variance is explained by the number of components utilized on the projection of the PCA. In this case, utilizing 2 components explains 33.47% of the projection, a good sign that clustering will work upon here. We also plot the projection no major early groupings and the outliers that exist:
 
-<img src="images/PCA.png" width="500" height="300">
+<img src="images/PCA.png" width="800" height="800">
 
 #### Results
 (move EDA section to "preparation" above as didn't feel it was fitting with the section)
