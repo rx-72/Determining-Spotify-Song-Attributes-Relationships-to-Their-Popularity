@@ -76,7 +76,14 @@ Additional, we predict the clusters for each song previously listed and get stat
 <img src="images/Cluster_Results.png" width="800" height="800">
 
 #### Results
-(move EDA section to "preparation" above as didn't feel it was fitting with the section)
+
+The cluster with the highest popularity here was cluster 4. This cluster had high energy (0.81), high loudness (-5.54), a quick tempo (137) along with low accoustiness (0.11) and moderate danceability. The cluster here relates to high energy, fast paced songs such as pop or hype music which explains the ranking of popularity here as they are very mainstream and radio friendly.
+
+Following this, we have cluster 5 which is similar to 4 in its loudness and energy but has an increase in speechability, a moderate tempo and a decently high danceability. Based on this information, the cluster here has a high reference to rap or pop dance songs which fall under this description and are also quite mainstream as well.
+
+Cluster 2 ranked 3rd in our popularity rankings. This cluster showcased a focus in lower energy but higher accoustiness along with a moderate tempo and softer loudness. We can consider this group as more indie style songs, expressing more artistic freedom and hence less of the hype sounding tracks of previous. These are popular but not as mainstream as the other 2 so this ranking also makes sense.
+
+Next on the list is cluster 0, represented with its high valence and danceability, along with the more moderate tempo. Songs of this nature that are upbeat and feel good leaning would fall into this cluster, and aren't fully mainstream (especially since this was more of a trend in the past) but still rather relavnt hence this more mid tier placement.
 
 #### Next steps
 What suggestions do you have for next steps?
