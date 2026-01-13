@@ -97,7 +97,7 @@ As mentioned, these clusters were created utilizing k means here. There are othe
 #### Outline of project
 
 - [EDA](https://github.com/rx-72/Determining-Spotify-Song-Attributes-Relationships-to-Their-Popularity/blob/main/EDA.ipynb)
-- [Final]()
+- [Final](https://github.com/rx-72/Determining-Spotify-Song-Attributes-Relationships-to-Their-Popularity/blob/main/Capstone%20Project.ipynb)
 
 
 ##### Contact and Further Information
