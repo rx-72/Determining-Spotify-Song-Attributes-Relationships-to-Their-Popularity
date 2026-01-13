@@ -85,14 +85,23 @@ Cluster 2 ranked 3rd in our popularity rankings. This cluster showcased a focus 
 
 Next on the list is cluster 0, represented with its high valence and danceability, along with the more moderate tempo. Songs of this nature that are upbeat and feel good leaning would fall into this cluster, and aren't fully mainstream (especially since this was more of a trend in the past) but still rather relavnt hence this more mid tier placement.
 
+Near the end we have cluster 1 which contains particularly a high instrumental focus (0.77) along with a much longer duration vs the other clusters and a lower valence. This cluster represents the more somber and classical music archetype which is more on the niche side and less popular these days which definitely explains the cluster's ranking.
+
+And finally we have cluster 3, demonstrated with an also high instrumental focus at 0.77 and the highest acousticness at 0.86, but also the least noise (-0.21) and energy (0.18) of all the clsuters (-0.21). We can label this cluster also in the more relaxing and quiet music, designed more around relaxation and easing nerves. This is also a more niche category so it's understandable why it's ranked last.
+
+Over all, we were able to achieve our goal of creating clusters of song types that were able to identify and rank these clusters based on popularity as well.
+
 #### Next steps
-What suggestions do you have for next steps?
+As mentioned, these clusters were created utilizing k means here. There are other cluster types we can analyze such as DBscans to pull out these results. Additionally, we utilized the mean of popularity for the rankings which are effectively by the outlier rankings. Further cleaning on this area could make clusters differentiate more in rankings. Finally, running more cluster groupings can help use identify more song groups and niches which may prove useful if more detail is required in the research.
 
 #### Outline of project
 
-- [Link to notebook 1](https://github.com/rx-72/Determining-Spotify-Song-Attributes-Relationships-to-Their-Popularity/blob/main/EDA.ipynb)
-- [Link to notebook 2]()
-- [Link to notebook 3]()
+- [EDA](https://github.com/rx-72/Determining-Spotify-Song-Attributes-Relationships-to-Their-Popularity/blob/main/EDA.ipynb)
+- [Final]()
 
 
 ##### Contact and Further Information
+
+Joshua Huang
+joh009@ucsd.edu
+6262055665
